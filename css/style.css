@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(255, 196, 168);
+}
+
+.header nav {
+background-color: #e95d00;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+height: 85px;
+padding: 5px 10%;
+}
+
+.header img {
+    cursor: pointer;
+}
+.header img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3;
+}
+
+.header img:hover {
+    transform: scale(1.2);
+}
+
+.header .navbar-nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .navbar-nav .nav-link {
+    font-size: 700;
+    color: #fff;
+}
+
+.header .navbar-nav li:hover {
+    transform: scale(1.1);
+}
+
+.header .navbar-nav li a:hover {
+    color: rgb(255, 196, 168);
+}
+
+main {
+    margin: 22px;
+    padding: 22px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 22px 0px;
+}
+
+h2 {
+    text-align: center;
+    margin: 22px 0px;
+}
+
+
+.contenedorProductos {
+    margin: 22px;
+    border-radius: 10px; 
+}
+
+.imgProductos {
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
+.contenedorProductos {
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+iframe {
+    display: block;
+    margin: auto;
+}
+
+form {
+    margin-top: 22px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+input [type="text"], 
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormu {
+    background-color: gray;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.imagenembrague {
+    display: block;
+    margin: auto;
+}
+
+.videoexplicativo {
+    text-align: center;
+    margin: 22px 0px;
+}
+
+
+p {
+    padding: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+
+.card-title {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.marginCard {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #e95d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+
+@media (max-width:1023px) {
+
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:768px) {
+  
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
