@@ -145,13 +145,23 @@ input [type=text], textarea {
   margin-top: 10px;
 }
 
-footer {
+.containerFooter {
   background-color: #e95d00;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 85px;
-  padding: 5px 10%;
+}
+.containerFooter .nav-link {
+  color: #fff;
+}
+.containerFooter a:hover {
+  color: rgb(255, 196, 168);
+}
+.containerFooter a:hover:hover {
+  transform: scale(1.1);
+}
+.containerFooter .text-center {
+  color: #fff;
+}
+.containerFooter .bi {
+  -ms-flex-align: center;
 }
 
 @media (max-width: 1023px) {
