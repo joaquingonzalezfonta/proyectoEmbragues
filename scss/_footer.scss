@@ -1,22 +1,24 @@
 .containerFooter {
-    background-color: #e95d00;
+    background-color: $color-principal;
 
     .nav-link {
         color: #fff;
     }
 
     a:hover {
-        color: rgb(255, 196, 168);
+        color: black;
         &:hover {
-            transform: scale(1.1);
+            transform: scale(1.2);
           }
       }
 
-      .text-center {
-        color: #fff;
+      .contenedorIconos {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
       }
-
-      .bi {
-        -ms-flex-align: center;
+      
+      a {
+        color: #fff;
       }
 }

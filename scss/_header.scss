@@ -1,6 +1,6 @@
 .header {
     nav {
-      background-color: #e95d00;
+      background-color: $color-principal;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -32,11 +32,11 @@
   
       li {
         &:hover {
-          transform: scale(1.1);
+          transform: scale(1.2);
         }
   
         a:hover {
-          color: rgb(255, 196, 168);
+          color: black;
         }
       }
     }
