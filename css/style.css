@@ -43,7 +43,6 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 85px;
   padding: 5px 10%;
 }
 .header img {
